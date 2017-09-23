@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FlagQuiz</string>
+    <string name="guess_the_country">Guess the Country</string>
+    <string name="setting">Settings</string>
+    <string name="pref_key_region_selection">"regionSelection"</string>
+    <string name="pref_key_button_num">"buttonNum"</string>
+    <string name="region_selection_warning">"one region must be selected"</string>
+    <string name="reset_question">"RESET QUIZ"</string>
+
+</resources>

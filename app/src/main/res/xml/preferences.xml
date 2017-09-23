@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ListPreference
+            android:key="@string/pref_key_button_num"
+            android:title="Number of Choices"
+            android:defaultValue="4"
+            android:summary="Display 2,4,6 or 8 guess buttons"
+            android:dialogTitle="Number of Choices"
+            android:entries="@array/numberOfButtons"
+            android:entryValues="@array/numberOfButtons">
+        </ListPreference>
+
+        <MultiSelectListPreference
+            android:key="@string/pref_key_region_selection"
+            android:dialogTitle="Regions"
+            android:entries="@array/continents"
+            android:summary="Regions to include in the quiz"
+            android:title="Regions"
+            android:defaultValue="@array/continentCodes"
+            android:entryValues="@array/continentCodes"/>
+
+</PreferenceScreen>
